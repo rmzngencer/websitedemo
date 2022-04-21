@@ -1,0 +1,277 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.sidebar {
+    top: 125px;
+    height: 100%;
+    width: 10%;
+    background-color: rgb(161, 15, 15);
+    position: fixed !important;
+    overflow:visible;
+    font-size: 12px !important;
+    z-index: 999;
+}
+.dropdown{
+    position: relative;
+    height: auto;
+}
+.dropdown-content{
+    position:absolute;
+    left: 100%;
+    background-color: rgb(161, 15, 15);
+    top: 0;
+    width: 100%; 
+    display: none;
+}
+    
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+} 
+.bar-item {
+    width: 100%;
+    display: block;
+    text-align: center;
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    overflow:hidden;
+    
+}
+
+
+.bar-text {
+    padding: 15px;
+    color: white;
+    margin: 0;
+
+}
+
+.hover-black:hover {
+    color: rgb(215, 214, 218) !important;
+    background-color: #000 !important
+}
+
+.black {
+    color: rgb(215, 214, 218) !important;
+    background-color: #000 !important;
+    font-size: 21px;
+
+}
+
+.hover-white:hover {
+    color: rgb(17, 16, 18) !important;
+    background-color: rgb(255, 255, 255) !important
+}
+
+.top {
+    top: 0px;
+    margin-left: 0;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(215, 214, 218);
+    position: fixed !important;
+    z-index: 5;
+    font-size: 12px !important;
+}
+
+.top-item {
+    display: block;
+    border: none;
+    white-space: normal;
+    outline: 0;
+    padding: 12px 24px !important;
+    text-align: center;
+
+}
+
+.main {
+    margin-top: 125px;
+    margin-right: 4%;
+    margin-left: 14%;
+}
+
+.title {
+
+    margin-left: -5%;
+    width: 109%;
+    height: 200px;
+    background: url(img/title.jpg);
+    color: aliceblue;
+}
+
+.title-text {
+    padding-top: 120px !important;
+    padding-left: 40px;
+
+}
+
+.littitile {
+    text-align: center !important;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+    padding-bottom: 16px !important;
+}
+
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    text-align: center !important;
+}
+
+.padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    text-align: center !important;
+}
+
+.pic {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 533px;
+}
+
+.makebig {
+    transition: 0.5s;
+}
+.makebig:hover {
+    -ms-transform: scale(1.3);
+    /* IE 9 */
+    -webkit-transform: scale(1.3);
+    /* Safari 3-8 */
+    transform: scale(1.3);
+}
+
+.quarter {
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    color: #000;
+}
+
+.list {
+    text-align: center !important;
+    list-style-type: none;
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    padding-top: 50px;
+
+
+}
+
+footer {
+    background-color: rgb(70, 69, 69);
+    top: 16px;
+
+    height: 210px;
+    z-index: 5;
+    font-size: 12px !important;
+    width: 100%;
+}
+
+.foot {
+    margin-left: 2%;
+    float: left;
+    width: 45%;
+}
+
+.link {
+    float: left;
+    width: 45%;
+}
+
+.slink {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    background-color: darkgray;
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.num-list {
+    text-align: center !important;
+    height: 260px;
+    width: 100%;
+    background-color: darkgray;
+
+}
+.num-list
+
+.divid {
+
+    float: left;
+    width: 20%;
+    font-size: 25px;
+
+
+
+}
+
+.img:hover {
+    opacity: 0.5;
+}
+
+.read-more-state {
+    display: none;
+  }
+  .container{
+   
+    border: #666;
+
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+   
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+    
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+  }
+  
+  .read-more-trigger {
+    background-color: rgb(123, 13, 13);
+    
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    line-height: 2;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: .25em;
+  }
+
+
+
+
+
+
+
+
+
